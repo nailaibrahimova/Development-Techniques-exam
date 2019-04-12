@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
     //comparing 2 strings
     printf("compare=%d\n", compareOfStrings(s1, s2));
 
-    // //is string palindrome
-    // printf("isPalindrome=%d\n", isPalindrome(s1));
-    // return 0;
+    //is string palindrome
+    printf("isPalindrome=%d\n", isPalindrome(s1));
+    return 0;
 }

@@ -16,11 +16,11 @@ int compareOfStrings(char *s1, char *s2){
     return TRUE;
 }
 
-// int isPalindrome(char *s1){
-//     int n=lengthOfString(s1);
-//     for(int i=0;s1[i]!='\0';i++){
-//         if( s1[i]==s1[n-i-1] ) continue;
-//         else return FALSE;
-//     }
-//     return TRUE;
-// }
+int isPalindrome(char *s1){
+    int n=lengthOfString(s1);
+    for(int i=0;s1[i]!='\0';i++){
+        if( s1[i]==s1[n-i-1] ) continue;
+        else return FALSE;
+    }
+    return TRUE;
+}
