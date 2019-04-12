@@ -1,5 +1,5 @@
-#include "testing.c"
-#include "string.h"
+#include "testing.h"
+#include "stringFunc.h"
 
 void test_lengthOfString(){
     CU_ASSERT(lengthOfString("hello")==5);

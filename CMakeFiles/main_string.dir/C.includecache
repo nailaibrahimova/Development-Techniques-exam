@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/naila/development_techniques/exam/DevTech_exam/main_string.c
+stringFunc.c
+/home/naila/development_techniques/exam/DevTech_exam/stringFunc.c
+
+sub/stringFunc.c
+stringFunc.h
+sub/stringFunc.h
+
+sub/stringFunc.h
+stdio.h
+-
+stdlib.h
+-
+

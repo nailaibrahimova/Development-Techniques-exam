@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/main_string.dir/main_string.c.o  -o main_string -rdynamic sub/libsub.a 

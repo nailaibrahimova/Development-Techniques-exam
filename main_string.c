@@ -1,4 +1,4 @@
-#include "string.c"
+#include "stringFunc.c"
 
 int main(int argc, char const *argv[])
 {

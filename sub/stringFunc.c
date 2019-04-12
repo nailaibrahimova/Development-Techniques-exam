@@ -1,4 +1,4 @@
-#include "string.h"
+#include "stringFunc.h"
 
 int lengthOfString(char *string){
     int length=0;

@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
+#include "testing.h"
 
-int setup(){return 0;}
-int teardown(){return 0;}
+int setup(void){return 0;}
+int teardown(void){return 0;}
 
 CU_pSuite add_suite(const char* msg)
 {
