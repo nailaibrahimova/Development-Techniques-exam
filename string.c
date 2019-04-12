@@ -8,13 +8,13 @@ int lengthOfString(char *string){
     return length;
 }
 
-// int compareOfStrings(char *s1, char *s2){
-//     for(int i=0;s1[i]!='\0'|| s2[i]!='\0';i++){
-//         if(s1[i]==s2[i]) continue;
-//         else return FALSE;
-//     }
-//     return TRUE;
-// }
+int compareOfStrings(char *s1, char *s2){
+    for(int i=0;s1[i]!='\0'|| s2[i]!='\0';i++){
+        if(s1[i]==s2[i]) continue;
+        else return FALSE;
+    }
+    return TRUE;
+}
 
 // int isPalindrome(char *s1){
 //     int n=lengthOfString(s1);

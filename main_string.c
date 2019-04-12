@@ -9,12 +9,12 @@ int main(int argc, char const *argv[])
     int n=lengthOfString(s1);
     printf("length of |%s| is %d\n", s1, n);
 
-    // char *s2=calloc(100, sizeof(char));
-    // // s2="hello";
-    // printf("give the string s2:\n");
-    // scanf("%s", s2);
-    // //comparing 2 strings
-    // printf("compare=%d\n", compareOfStrings(s1, s2));
+    char *s2=calloc(100, sizeof(char));
+    // s2="hello";
+    printf("give the string s2:\n");
+    scanf("%s", s2);
+    //comparing 2 strings
+    printf("compare=%d\n", compareOfStrings(s1, s2));
 
     // //is string palindrome
     // printf("isPalindrome=%d\n", isPalindrome(s1));
